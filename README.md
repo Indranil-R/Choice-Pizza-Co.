@@ -7,8 +7,8 @@ Choice Pizza Co. is pizza delivering company with Authentic Italian cuisine and 
 <hr/>
 
 <h2>Desktop View</h2>
-![Desktop View](./desktop_view.jpeg)
+<img alt="Desktop View" src="./desktop_view.jpeg"/>
 
 <h2>Mobile View</h2>
-![Mobile View](./mobile_view.jpeg)
+<img alt="Desktop View" src="./mobile_view.jpeg"/>
 
