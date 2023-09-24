@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const pizzaData = [
@@ -82,8 +82,8 @@ function Menu() {
             from. All from our stone oven, all organic, all delicious.
           </p>
           <div className="grid mt-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-            {pizzas.map((pizza) => (
-              <Pizza pizzaObject={pizza} />
+            {pizzas.map((pizza,index) => (
+              <Pizza pizzaObject={pizza} key={index}/>
             ))}
           </div>
         </>
